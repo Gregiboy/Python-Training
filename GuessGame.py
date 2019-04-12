@@ -17,5 +17,5 @@ while Guess == False:
         print ("Too High!")
     else:
         Guess = True
-        break
+        
 print ("Nice Guess!")
