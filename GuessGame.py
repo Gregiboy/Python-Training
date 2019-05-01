@@ -12,10 +12,10 @@ print("Please take a guess")
 while Guess == False:
     myGuess = input()
     if x > myGuess:
-        print ("Too Low!")
+        print ("Too Low, take another guess!")
     elif x < myGuess :
-        print ("Too High!")
+        print ("Too High, take another guess!")
     else:
         Guess = True
-        
+
 print ("Nice Guess!")
